@@ -2,7 +2,7 @@ let teacherForms = document.getElementsByClassName("teacher-contract")
 for (let teacherForm of teacherForms) {
     teacherForm.addEventListener("submit", function (event) {
         event.preventDefault()
-        console.log("Executou o submit")
+        console.log("Executed the submit")
 
         let price = teacherForm.price.value
         let hours = teacherForm.hours.value
