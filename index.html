@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img class="logo" src="https://macmagazine.com.br/wp-content/uploads/2019/09/19-alura.png" alt="logo">
+    <p class="slogan">Find the best teacher</p>
+</header>    
+<main>
+    <section class="teacher-container">
+        <img src="https://careertechnical.edu/wp-content/uploads/2019/09/IT-Professional-Reasons.jpg" alt="professor" class="teacher-img">
+        <p><strong class="teacher-name">Frederick J. Smith</strong></p>
+        <p><strong class="teacher-price">$ 20,00 a hour</strong></p>
+        <p class="teacher-description">English teacher, lived in Frence and United Kingdom      
+        </p>
+        <form class="teacher-contract">
+            <input name="price" type="hidden" value="20">
+            <input required name="hours" placeholder="Number of hours" class="teacher-contract-hours">
+            <button type="submit" class="teacher-contract-button">Calculate total value</button>
+        </form>
+    </section>
+
+    <section class="teacher-container">
+        <img src="https://innovationatwork.ieee.org/wp-content/uploads/2019/03/bigstock-204807592-1024x683.jpg" alt="professor" class="teacher-img">
+        <p><strong class="teacher-name">Ana Maria Holaria</strong></p>
+        <p><strong class="teacher-price">$ 18,00 a hour</strong></p>
+        <p class="teacher-description">Spanish teacher, lived in Mexico and United Kingdom      
+        </p>
+        <form class="teacher-contract">
+            <input name="price" type="hidden" value="18">
+            <input required name="hours" placeholder="Number of hours" class="teacher-contract-hours">
+            <button type="submit" class="teacher-contract-button">Calculate total value</button>
+        </form>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
